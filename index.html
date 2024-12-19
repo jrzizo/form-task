@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--main container for centering form -->
+    <div class="container">
+        <!--from with unique ID js targeting-->
+        <form id="form">
+            <!--form header sec-->
+            <h2>Welcome Back</h2>
+            <p class="subtitle">Please enter your details</p>
+
+            <!--Username input group-->
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text"
+                        id="username"
+                        name="username"
+                        required
+                        placeholder="Enter your username">
+            </div>
+
+            <!--Email input group-->
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input 
+                    type="text"
+                    id="email"
+                    name="email"
+                    required
+                    placeholder="Enter your email">
+            </div>
+
+            <!--Submit button with SVG icon-->
+            <button type="submit">
+                Submit
+                <!-- Paper plane icon for visual feedback -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+            </button>
+
+        </form>
+    </div>
+</body>
+</html>
